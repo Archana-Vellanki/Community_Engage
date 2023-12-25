@@ -1,0 +1,32 @@
+{
+  "name": "Community Engage",
+  "version": "1.0",
+  "description": "Browser extension for sharing resources",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "CM extension",
+    "default_icon": "logo.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "oauth2": {
+    "client_id": "944208062896-0giaopqhgn0r2fjg5d81rgr04gm16o15.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "content_security_policy": "script-src 'self' https://code.jquery.com/ https://cdnjs.cloudflare.com/ https://stackpath.bootstrapcdn.com/; object-src 'self'",
+  "permissions": [
+    "identity",
+    "http://localhost/",
+    "history",
+    "storage",
+    "tabs",
+    "alarms",
+    "notifications"
+  ]
+}
