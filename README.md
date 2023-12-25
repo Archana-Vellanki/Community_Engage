@@ -33,7 +33,7 @@ Welcome! This browser extension is designed to enhance collaboration and product
 1. Clone the repository:
    ```bash
    git clone https://github.com/Archana-Vellanki/Community-Engage.git
-   cd community-engagement-extension
+   cd Community-Engage
 ## Usage
 1. Open your web browser.
 2. Navigate to the assignment activity page.
